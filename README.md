@@ -1,6 +1,10 @@
 # quizgame
-hello  brwooo
-change my varnit
-and i'm initiator of this project
+Hi!!
+This is our first project together directly from PEC days.
+Members: Varnit, Jabir, Devraj
+
+
+comments:
+
 
 
