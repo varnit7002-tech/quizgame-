@@ -1,0 +1,111 @@
+ *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background-color:#f3f3f3;
+        }
+
+        /* Navbar */
+        nav{
+            background-color:#d9d9d9;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:15px 50px;
+        }
+
+        .logo img{
+            height:60px;
+        }
+
+        .nav-links{
+            list-style:none;
+            display:flex;
+            gap:30px;
+        }
+
+        .nav-links a{
+            text-decoration:none;
+            color:black;
+            font-weight:bold;
+        }
+
+        .nav-links a:hover{
+            color:#555;
+        }
+
+        /* Main Content */
+        .container{
+            max-width:1000px;
+            margin:40px auto;
+            padding:20px;
+            text-align:center;
+        }
+
+        .container h1{
+            margin-bottom:20px;
+        }
+
+        .container p{
+            line-height:1.8;
+            font-size:18px;
+        }
+
+        /* Cards Section */
+        .cards{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            margin-top:50px;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            background:white;
+            border-radius:10px;
+            overflow:hidden;
+            width:280px;
+            box-shadow:0 2px 8px rgba(0,0,0,0.2);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:scale(1.05);
+        }
+
+        .card img{
+            width:100%;
+            height:180px;
+            object-fit:cover;
+        }
+
+        .card h3{
+            padding:15px;
+        }
+
+        footer{
+    background-color:#222;
+    color:white;
+    text-align:center;
+    margin-top:60px;
+    padding:30px 20px;
+
+    
+}
+.footer-links{
+    margin:20px 0;
+}
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+}
+
+.footer-links a:hover{
+    text-decoration:underline;
+}
