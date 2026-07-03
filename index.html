@@ -3,15 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUIZ GAME </title>
-    <link rel="stylesheet"href="style.css">
-    <script src="first.js"></script>
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class = "main">
-        <h1 id = "quiz">QUIZ GAME</h1>
-        <p id = "welcome">Welcome to the quiz game! Test your knowledge and have fun..!</p>
-        <button id = "button1" onclick="startQuiz()">Start Quiz</button>    
+  <!-- Start Screen -->
+    <div id="start-screen">
+        <h1 id="quiz">QUIZ GAME</h1>
+
+        <p id="welcome">
+            Welcome to the quiz game! Test your knowledge and have fun.
+        </p>
+
+        <button id="button1" onclick="startQuiz()">Start Quiz</button>
     </div>
-</body> 
+
+    <!-- Game Screen -->
+    <div id="game-screen">
+        <h2 id="question">This is going to be my question....</h2>
+
+        <div class="allbtn">
+            <button class="btn">Option A</button>
+            <button class="btn">Option B</button>
+            <button class="btn">Option C</button>
+            <button class="btn">Option D</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        ❤️ Made with love by Varnit ❤️ <br>
+        © 2026 Quiz Game | All Rights Reserved
+    </footer>
+
+    <script src="first.js"></script>
+</body>
 </html>
