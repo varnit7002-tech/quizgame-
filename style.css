@@ -27,6 +27,8 @@ body {
     height: 60px;
     width: 200px;
     border-radius: 30px;
+    box-shadow: none;   
+    border: none;
 }
 
 #game-screen {
@@ -36,6 +38,25 @@ body {
     justify-content: center;
     align-items: center;
 }
+#lifelines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;          /* more gap between buttons */
+    margin-top: 40px;   /* space from top */
+    margin-bottom: 40px;
+
+    
+}
+#lifeline-75-25, #hint, #memory-challenge, #glitch {
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    box-shadow: none;
+    border: none;
+   
+}
+
 
 #question {
     width: 800px;
