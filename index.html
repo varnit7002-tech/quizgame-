@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Game</title>
     <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
+    <script src="first.js"></script>
   <!-- Start Screen -->
     <div id="start-screen">
         <h1 id="quiz">QUIZ GAME</h1>
@@ -19,6 +21,16 @@
     </div>
 
     <!-- Game Screen -->
+
+      <div id="menu-bar">
+        <button id="menu-button" onclick="toggleMenu()">☰</button>
+        <div id="menu-content">
+          <button id="restart-button" onclick="restartQuiz()">Restart</button>
+          <button id="exit-button" onclick="exitQuiz()">Exit</button>
+        </div>
+        </div>
+
+        
       <div id="lifelines">
         <button id="lifeline-75-25" onclick="uselifeline7525()">75-25</button>
         <button id="hint" onclick="useHint()">Hint</button>
@@ -35,12 +47,12 @@
             <button class="btn">Option D</button>
         </div>
     </div>
+               
 
     <footer class="footer">
         ❤️ Made with love by Varnit ❤️ <br>
         © 2026 Quiz Game | All Rights Reserved
     </footer>
 
-    <script src="first.js"></script>
 </body>
-</html>
+</html> 
