@@ -40,6 +40,41 @@ body {
     border: none;
 }
 
+#menu-content {
+    display: none;
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+
+    border: 3px solid black;
+    box-shadow: 0 0 20px rgba(243, 97, 97, 0.3);
+
+    flex-direction: column;
+    gap: 20px;
+}
+
+#restart-button,
+#exit-button {
+    width: 220px;
+    height: 60px;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    border-radius: 15px;
+    border: none;
+}
+.blur {
+    opacity: 0.4;
+    pointer-events: none; /* player disable to move */
+}
+
 #restart-button,#exit-button{
     display: none;
     
