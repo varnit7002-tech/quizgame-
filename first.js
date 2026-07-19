@@ -25,9 +25,42 @@ const quizData = [
         answer: 1
     },
     {
-        question: "What is the largest ocean on Earth?",
+        question: "which is the largest ocean on Earth?",
         options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
         answer: 3
+    },
+    {    
+        question: "which country flag is this 🇧🇷 ?",
+        options: ["india","portugal","peru","brazil"],
+        answer: 3
+    },
+    {
+        question: "formula of formic acid ",
+        options: ["CH₂O₂","H₂C₂O₄","C₂H₄O₂(HCOOH)","H₂O"],
+        answer: 0
+        
+    },
+
+    {
+        question: "what is 40% of 400",
+        options: ["200","160","140","120"],
+        answer: 1
+    },
+    {
+        question: "what is full form of ISRO",
+        option: ["international space research organization","Indian Scientific Research Office","Indian Space Research Organisation","International Scientific Rocket Organization"],
+        answer: 2
+    },
+    {
+        question: "who is current president of india",
+        option: ["dropati murmur","narendra modi","dhruv rathee","THE CREATOR"],
+        answer: 1
+        
+    },
+    {
+        question: "calculate 15*15",
+        option: ["25","625","125","120"],
+        answer: 1
     }
 ];
 
@@ -100,3 +133,5 @@ function exitQuiz() {
     document.getElementById("game-screen").classList.remove("blur");
     document.getElementById("lifelines").classList.remove("blur");
 }
+
+
