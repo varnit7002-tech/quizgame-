@@ -138,3 +138,44 @@ body {
     background: linear-gradient(90deg, purple, hotpink, red);
     border-top: 4px solid black;
 }
+
+
+
+.button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: black;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.button-container:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+#sdfg{
+    margin: 30px;
+    
+}
