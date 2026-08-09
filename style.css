@@ -60,7 +60,7 @@ body{
 
 #button1:hover{
     transform:scale(1.08);
-    box-shadow:0 0 100px cyan;
+    box-shadow:0 0 100px rgb(7, 223, 243);
 }
 
 /* ---------------- MENU ---------------- */
@@ -105,7 +105,7 @@ body{
 }
 
 #lifelines button:hover{
-    background:#00bfff;
+    background:#0aa1d3;
     transform:translateY(-4px);
 }
 
