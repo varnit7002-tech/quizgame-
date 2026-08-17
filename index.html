@@ -3,42 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Game</title>
+    <title>Ultimate 40</title>
     <link rel="stylesheet" href="style.css">
-   
 </head>
 <body>
-    <script src="first.js"></script>
-  <!-- Start Screen -->
+
     <div id="start-screen">
-        <h1 id="quiz">QUIZ GAME</h1>
-
+        <h1 id="quiz">QUIZ MASTER</h1>
         <p id="welcome">
-            Welcome to the quiz game! Test your knowledge and have fun.
+            Welcome to Quiz Master — test your knowledge, learn something new,
+            and survive all 40 questions.
         </p>
-
-        <button id="button1" onclick="startQuiz()">Start Quiz</button>
+        <button id="button1" onclick="startQuiz()">SUPER 40</button>
     </div>
 
-    <!-- Game Screen -->
+    <div id="ultimate-intro">
+        <h1>⚡ SUPER 40</h1>
+        <p>Answer all 40 questions correctly to achieve SUPER 40.</p>
+        <p>
+            You start with 60 seconds. Every correct answer gives you
+            <strong>+10 seconds</strong>.
+        </p>
+        <p>
+            Every question also teaches you something new through a short
+            explanation after your answer.
+        </p>
+        <p>You have four lifelines. Use them wisely.</p>
+        <button id="start-challenge" onclick="beginUltimate40()">
+            START CHALLENGE
+        </button>
+    </div>
 
-      <div id="menu-bar">
+    <div id="menu-bar">
         <button id="menu-button" onclick="toggleMenu()">☰</button>
         <div id="menu-content">
-          <button id="restart-button" onclick="restartQuiz()">Restart</button>
-          <button id="exit-button" onclick="exitQuiz()">Exit</button>
+            <button id="restart-button" onclick="restartQuiz()">Restart</button>
+            <button id="exit-button" onclick="exitQuiz()">Exit</button>
         </div>
+    </div>
+
+    <div id="lifelines" style="display: none;">
+        <button id="lifeline-75-25" onclick="useLifeline7525()" title="Remove one wrong answer of your choice.">
+            75-25
+        </button>
+        <button id="hint" onclick="useHint()" title="Get a helpful fact or clue about the current question.">
+            Hint
+        </button>
+        <button id="memory-challenge" onclick="useMemoryChallenge()" title="After Question 15, test your memory by guessing the question number.">
+            Memory Challenge
+        </button>
+        <button id="glitch" onclick="useGlitch()" title="Choose an answer and check whether it is correct without submitting it.">
+            Glitch
+        </button>
+    </div>
+
+    <div id="game-screen">
+        <div id="game-top">
+            <div id="question-number">Question 1 / 40</div>
+            <div id="timer">Time: 60s</div>
         </div>
 
-        
-      <div id="lifelines">
-        <button id="lifeline-75-25" onclick="uselifeline7525()">75-25</button>
-        <button id="hint" onclick="useHint()">Hint</button>
-        <button id="memory-challenge" onclick="useMemoryChallenge()">Memory Challenge</button>
-        <button id="glitch" onclick="useGlitch()">Glitch</button>
-      </div>
-    <div id="game-screen">
-        <h2 id="question">This is going to be my question....</h2>
+        <div id="memory-message">🧠 Remember the question...</div>
+
+        <h2 id="question">Question goes here</h2>
+
+        <div id="hint-text"></div>
+        <div id="glitch-message"></div>
 
         <div class="allbtn">
             <button class="btn">Option A</button>
@@ -46,13 +76,20 @@
             <button class="btn">Option C</button>
             <button class="btn">Option D</button>
         </div>
+
+        <div id="explanation">
+            <div id="answer-result"></div>
+            <div id="correct-answer"></div>
+            <div id="explanation-text"></div>
+        </div>
     </div>
-               
 
     <footer class="footer">
-        ❤️ Made with love by Varnit ❤️ <br>
-        ©️ 2026 Quiz Game | All Rights Reserved
+        ❤️ Made with love by Varnit ❤️<br>
+        ©️ 2026 QUIZ MASTER | All Rights Reserved
     </footer>
 
+    <script src="question.js"></script>
+    <script src="first.js"></script>
 </body>
 </html>
