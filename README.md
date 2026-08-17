@@ -4,7 +4,7 @@ Markdown
 
 A responsive, interactive web-based quiz game where users can test their knowledge across various topics, get instant feedback, and view their final scores.
 
----
+~~~~~
 
 ## 🚀 Features
 
@@ -17,9 +17,9 @@ A responsive, interactive web-based quiz game where users can test their knowled
 
 ## 🛠️ Tech Stack
 
-* **HTML5** - Structure and layout
-* **CSS3** - Styling, animations, and responsive layout
-* **JavaScript (ES6+)** - Game logic and dynamic DOM manipulation
+* **HTML5** - Structure and layout.
+* **CSS3** - Styling, animations, and responsive layout.
+* **JavaScript (ES6+)** - Game logic and dynamic DOM manipulation.
 
 ---
 
