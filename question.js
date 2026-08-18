@@ -1,5 +1,4 @@
 const quizData = [
-    
     {
         question: "What is the capital of France?",
         options: ["Paris", "Madrid", "Rome", "Berlin"],
@@ -37,7 +36,7 @@ const quizData = [
         difficulty: "easy"
     },
     {
-        question: "What is 12 × 12?",
+        question: "What is 12 * 12?",
         options: ["124", "144", "154", "164"],
         answer: 1,
         difficulty: "easy"
@@ -300,11 +299,6 @@ const quizData = [
         answer: 1,
         difficulty: "easy"
     },
-
-    // =========================
-    // MEDIUM QUESTIONS
-    // =========================
-
     {
         question: "What is the capital of Kazakhstan?",
         options: ["Almaty", "Astana", "Bishkek", "Tashkent"],
@@ -319,7 +313,7 @@ const quizData = [
     },
     {
         question: "What is the approximate speed of light in vacuum?",
-        options: ["3 × 10^6 m/s", "3 × 10^7 m/s", "3 × 10^8 m/s", "3 × 10^9 m/s"],
+        options: ["3 * 10^6 m/s", "3 * 10^7 m/s", "3 * 10^8 m/s", "3 * 10^9 m/s"],
         answer: 2,
         difficulty: "medium"
     },
@@ -618,15 +612,12 @@ const quizData = [
         difficulty: "medium"
     },
 
-    // =========================
-    // HARD QUESTIONS
-    // =========================
-
+    
     {
         question: "Which element has the highest melting point among the following?",
         options: ["Iron", "Tungsten", "Copper", "Titanium"],
         answer: 1,
-        difficulty: "hard"
+        difficulty: "medium"
     },
     {
         question: "What is the Chandrasekhar limit approximately?",

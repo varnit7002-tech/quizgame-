@@ -195,7 +195,7 @@ function showExplanation(correct) {
             document.getElementById("game-screen").classList.add("blur");
             document.getElementById("lifelines").classList.add("blur");
         }
-    }, 5000);
+    }, 2000);
 }
 
 function useLifeline7525() {
@@ -208,7 +208,7 @@ function useLifeline7525() {
     document.getElementById("lifeline-75-25").disabled = true;
 
     document.getElementById("glitch-message").textContent =
-        "75-25 activated — choose ONE wrong option to remove.";
+        "75-25 activated One wrong option will be removed.";
 
     document.getElementById("glitch-message").style.display =
         "block";
